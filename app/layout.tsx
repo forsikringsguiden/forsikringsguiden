@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Forsikringsguiden — Sammenlign forsikringer og spar penger",
   description:
     "Norges uavhengige forsikringsguide. Sammenlign priser på bil-, hus-, innbo- og reiseforsikring. Oppdatert for 2026.",
+  verification: {
+    google: "gXmYnSeW9bmLH2Z_IiOvHC1VVAMFizUDg5TOApsfI4A",
+  },
 };
 
 export default function RootLayout({
