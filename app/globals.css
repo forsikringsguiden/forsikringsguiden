@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-navy: #0f1a2e;
+  --color-accent: #2563eb;
+  --color-section: #f7f7f5;
+  --color-success: #16a34a;
+
+  /* Fonts */
+  --font-sans: var(--font-plus-jakarta-sans);
+  --font-serif: var(--font-source-serif-4);
+}
+
+body {
+  background-color: #ffffff;
+  color: #0f1a2e;
+  font-family: var(--font-source-serif-4), Georgia, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
+}
